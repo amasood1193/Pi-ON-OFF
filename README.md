@@ -3,21 +3,24 @@
 To be used with my RPi hat with voltage regulator and off switch. 
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/8d26435a3e49da940b293ba6d257160a3ecb25c0/pihat.png)
 
-Default pinout of the hat is 
-pin 2 - 5v
-pin 3 - GPIO 2 - SDA 
-pin 4 - 5v
-pin 5 - GPIO 3 - SCL
-pin 6 - GND
-pin 7 - GPIO 4 - SQW
-pin 9 - GND
-pin 14 - GND
-pin 20 - GND
-pin 25 - GND
-pin 30 - GND
-pin 34 - GND
-pin 39 - GND
-pin 40 - GPIO21 - SLEEP
+## Default pinout of the hat is 
+
+1. pin 2 - 5v
+1. pin 3 - GPIO 2 - SDA 
+1. pin 4 - 5v
+1. pin 5 - GPIO 3 - SCL
+1. pin 6 - GND
+1. pin 7 - GPIO 4 - SQW
+1. pin 9 - GND
+1. pin 14 - GND
+1. pin 20 - GND
+1. pin 25 - GND
+1. pin 30 - GND
+1. pin 34 - GND
+1. pin 39 - GND
+1. pin 40 - GPIO21 - SLEEP
+
+the pinout can be changed by removing the shunt on the corresponding pin, and adding a jumper wire to the pin of choice. the same shunts can be used to enable/disable features. 
 
 
 ## Installation
@@ -31,7 +34,7 @@ pin 40 - GPIO21 - SLEEP
 
 If you need to uninstall the power button script in order to use GPIO21 for another project or something:
 
-4. Run the uninstall script: `./pi-power-button/script/uninstall`
+1. Run the uninstall script: `./pi-power-button/script/uninstall`
 
 
 
