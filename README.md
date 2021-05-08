@@ -1,6 +1,6 @@
 # Pi-ON-OFF
 
-To be used with A Masood RPi hat with voltage regulator and off switch. 
+To be used with my RPi hat with voltage regulator and off switch. 
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/8d26435a3e49da940b293ba6d257160a3ecb25c0/pihat.png)
 
 ## Installation
