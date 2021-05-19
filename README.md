@@ -71,5 +71,7 @@ A brief description like following:
 Command [hwclock –r] to get RTC time
 Command [hwclock -w]set the system time to RTC time
 
+![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/d4b96212a2cd0fe9ab5a38cc26f32c51ae67bd68/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.35%20PM.jpeg)
+
 power off script is based on howchoo power button and Mike Armstrongs work. 
 https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
