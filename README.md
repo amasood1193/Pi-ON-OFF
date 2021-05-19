@@ -38,6 +38,8 @@ If you need to uninstall the power button script in order to use GPIO21 for anot
 
 ## Configuing Real Time Clock. 
 
+0. Make sure that the shunts are installed on SDA, SCL, and SQW
+
 1. Type in [sudo raspi-config] set up raspberry pi and prepare to enable i2c interface, alternatively you can go to start > prefference > raspberry pi configuration. and enable it from there. 
 
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/c7405fdc88c58e01fd788f40f2cd52225aeb679a/pictures/raspi%20config.JPG)
