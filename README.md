@@ -23,6 +23,12 @@ To be used with my RPi hat with voltage regulator and off switch.
 the pinout can be changed by removing the shunt on the corresponding pin, and adding a jumper wire to the pin of choice. the same shunts can be used to enable/disable features.
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/49924ea4ff7896585d0b00afd07f6906150456ac/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.35%20PM%20(2).jpeg)
 
+## Initial Setup
+
+1. before starting, make sure that the voltage adjuster trim pot is all the way counter clock wise, give it around 25 turns just to be sure, this will make sure that the starting voltage is fixed at 5. and not at 12. as this can damage the RTC module. 
+
+2. then give it 12v on the Batt, 12v on the IGN, and ground on the GND, once it starts, check voltage between ground and 5v header pin to make sure the output voltage is within spec. if so, short the 5v header pins which would then power on the PI. 
+
 ## Installation of ON/OFF script
 
 1. [Connect to your Raspberry Pi via SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
