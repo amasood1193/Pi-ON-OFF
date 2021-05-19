@@ -23,7 +23,6 @@ To be used with my RPi hat with voltage regulator and off switch.
 the pinout can be changed by removing the shunt on the corresponding pin, and adding a jumper wire to the pin of choice. the same shunts can be used to enable/disable features.
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/49924ea4ff7896585d0b00afd07f6906150456ac/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.35%20PM%20(2).jpeg)
 
-
 ## Installation of ON/OFF script
 
 1. [Connect to your Raspberry Pi via SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
@@ -42,6 +41,7 @@ If you need to uninstall the power button script in order to use GPIO21 for anot
 1. Type in [sudo raspi-config] set up raspberry pi and prepare to enable i2c interface, alternatively you can go to start > prefference > raspberry pi configuration. and enable it from there. 
 
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/c7405fdc88c58e01fd788f40f2cd52225aeb679a/pictures/raspi%20config.JPG)
+![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/19e3cf43d04addeb7a13eb8f7e7e76a83ab0a452/pictures/I2c%20enable.JPG)
 
 2. type in [sudo vim.tiny /etc/modules] to open file modules
 
