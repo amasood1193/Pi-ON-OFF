@@ -20,7 +20,8 @@ To be used with my RPi hat with voltage regulator and off switch.
 1. pin 39 - GND
 1. pin 40 - GPIO21 - SLEEP
 
-the pinout can be changed by removing the shunt on the corresponding pin, and adding a jumper wire to the pin of choice. the same shunts can be used to enable/disable features. 
+the pinout can be changed by removing the shunt on the corresponding pin, and adding a jumper wire to the pin of choice. the same shunts can be used to enable/disable features.
+![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/49924ea4ff7896585d0b00afd07f6906150456ac/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.35%20PM%20(2).jpeg)
 
 
 ## Installation
