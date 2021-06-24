@@ -86,7 +86,7 @@ https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 
 ## Extra parts if needed
 
-## Molex 4 pin connector  
+## Molex 4 pin connector (Mini-Fit Jr 5557)  
 Manufacturer Part Number	0766500075  (for kit)  
 Digi-Key Part Number	23-0766500075-ND  (for kit)     
 *Digi-Key Part Number if you want to buy seperately, Receptacle	WM3701-ND, terminals WM2501-ND  
