@@ -84,19 +84,20 @@ https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 
 ## Extra parts if needed
 
-1. Molex 4 pin connector
+1. Molex 4 pin connector (kit)
 1. Manufacturer Part Number	0766500075
 1. Digi-Key Part Number	23-0766500075-ND
+1. RS-components part numbers, housing 484-1754, terminals 172-9134
 
 1. shunt jumpers (use any shunt with a 0.1" or 2.54mm pitch)
 1. Manufacturer Part Number	STC02SYAN
 1. Digi-Key Part Number	S9000-ND
-1. Rs-component part number 251-8503
+1. RS-component part number 251-8503
 
 1. battery holder
 1. Manufacturer Part Number	3034TR
 1. Digi-Key Part Number	36-3034TR-ND
-1. Rs-component part number 185-4652
+1. RS-component part number 185-4652
 
 
 
