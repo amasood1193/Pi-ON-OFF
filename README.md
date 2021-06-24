@@ -27,7 +27,7 @@ the pinout can be changed by removing the shunt on the corresponding pin, and ad
 
 1. before starting, make sure that the voltage adjuster trim pot is all the way counter clock wise, give it around 25 turns just to be sure, this will make sure that the starting voltage is fixed at 5. and not at 12. as this can damage the RTC module. 
 
-2. then give it 12v on the Batt, 12v on the IGN, and ground on the GND, once it starts, check voltage between ground and 5v header pin to make sure the output voltage is within spec. if so, short the 5v header pins which would then power on the PI. 
+2. then give it 12v on the Batt, 12v on the IGN, and ground on the GND, once it starts, check voltage between 5v header pin and any ground, (best to use the pads on the mounting holes as a clean ground) to make sure the output voltage is within spec (set it to 5.15 if pi shows the lightning icon). if so, short the 5v header pins with the shunt jumber which would then power on the PI. 
 
 ## Installation of ON/OFF script
 
