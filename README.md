@@ -81,3 +81,25 @@ Command [hwclock -w]set the system time to RTC time
 
 power off script is based on howchoo power button and Mike Armstrongs work. 
 https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
+
+## Extra parts if needed
+
+Molex 4 pin connector
+Manufacturer Part Number	0766500075
+Digi-Key Part Number	23-0766500075-ND
+
+shunt jumpers (use any shunt with a 0.1" or 2.54mm pitch)
+Manufacturer Part Number	STC02SYAN
+Digi-Key Part Number	S9000-ND
+Rs-component part number 251-8503
+
+battery holder
+Manufacturer Part Number	3034TR
+Digi-Key Part Number	36-3034TR-ND
+Rs-component part number 185-4652
+
+
+
+
+
+ 
