@@ -5,20 +5,20 @@ To be used with my RPi hat with voltage regulator and off switch.
 
 ## Default pinout of the hat is 
 
-1. pin 2 - 5v
-1. pin 3 - GPIO 2 - SDA 
-1. pin 4 - 5v
-1. pin 5 - GPIO 3 - SCL
-1. pin 6 - GND
-1. pin 7 - GPIO 4 - SQW
-1. pin 9 - GND
-1. pin 14 - GND
-1. pin 20 - GND
-1. pin 25 - GND
-1. pin 30 - GND
-1. pin 34 - GND
-1. pin 39 - GND
-1. pin 40 - GPIO21 - SLEEP
+pin 2 - 5v  
+pin 3 - GPIO 2 - SDA   
+pin 4 - 5v  
+pin 5 - GPIO 3 - SCL  
+pin 6 - GND  
+pin 7 - GPIO 4 - SQW  
+pin 9 - GND  
+pin 14 - GND  
+pin 20 - GND  
+pin 25 - GND  
+pin 30 - GND  
+pin 34 - GND  
+pin 39 - GND  
+pin 40 - GPIO21 - SLEEP  
 
 the pinout can be changed by removing the shunt on the corresponding pin, and adding a jumper wire to the pin of choice. the same shunts can be used to enable/disable features.
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/49924ea4ff7896585d0b00afd07f6906150456ac/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.35%20PM%20(2).jpeg)
@@ -84,20 +84,20 @@ https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 
 ## Extra parts if needed
 
-1. Molex 4 pin connector (kit)
-1. Manufacturer Part Number	0766500075
-1. Digi-Key Part Number	23-0766500075-ND
-1. RS-components part numbers, housing 484-1754, terminals 172-9134
+## Molex 4 pin connector (kit)  
+Manufacturer Part Number	0766500075  
+Digi-Key Part Number	23-0766500075-ND  
+RS-components part numbers, housing 484-1754, terminals 172-9134  
 
-1. shunt jumpers (use any shunt with a 0.1" or 2.54mm pitch)
-1. Manufacturer Part Number	STC02SYAN
-1. Digi-Key Part Number	S9000-ND
-1. RS-component part number 251-8503
+## shunt jumpers (use any shunt with a 0.1" or 2.54mm pitch)  
+Manufacturer Part Number	STC02SYAN  
+Digi-Key Part Number	S9000-ND  
+RS-component part number 251-8503  
 
-1. battery holder
-1. Manufacturer Part Number	3034TR
-1. Digi-Key Part Number	36-3034TR-ND
-1. RS-component part number 185-4652
+## battery holder  
+Manufacturer Part Number	3034TR  
+Digi-Key Part Number	36-3034TR-ND  
+RS-component part number 185-4652  
 
 
 
