@@ -20,6 +20,8 @@ pin 34 - GND
 pin 39 - GND  
 pin 40 - GPIO21 - SLEEP  
 
+*in the earlier versions, GNDs are not connected to the pins, instead the screws ground the hat to the pi and the screen)
+
 the pinout can be changed by removing the shunt on the corresponding pin, and adding a jumper wire to the pin of choice. the same shunts can be used to enable/disable features.
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/49924ea4ff7896585d0b00afd07f6906150456ac/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.35%20PM%20(2).jpeg)
 
