@@ -44,13 +44,13 @@ alternatively you can build it manually on a rom of your chioce, there is a bug 
 1. [Connect to your Raspberry Pi via SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
 2. Clone this repo: `git clone https://github.com/amasood1193/Pi-ON-OFF.git`
-3. Run the setup script: `./pi-power-button/script/install`
+3. Run the setup script: `./Pi-ON-OFF/script/install`
 
 ## Uninstallation of ON/OFF script
 
 If you need to uninstall the power button script in order to use GPIO21 for another project or something:
 
-1. Run the uninstall script: `./pi-power-button/script/uninstall`
+1. Run the uninstall script: `./Pi-ON-OFF/script/uninstall`
 
 ## Configuing Real Time Clock. 
 
