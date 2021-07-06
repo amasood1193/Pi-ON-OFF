@@ -34,6 +34,8 @@ the pinout can be changed by removing the shunt on the corresponding pin, and ad
 ## Installation of ON/OFF script
 
 0. https://drive.google.com/file/d/14u9sHhU_0_0gOJKt48uZULw0jFR5z4XC/view?usp=sharing
+1. all credits to alex bartonek for this rom, 
+https://www.bartonekdragracing.com/encyclopedia/pidash-knowledge-base/
 
 ive made a image for a full rom you can just download, extract, and flash to your SD card using "win32diskimager", SD card has to be minimum 32gb
 and you wouldnt need to do anything with the code
@@ -43,13 +45,39 @@ https://sourceforge.net/projects/win32diskimager/files/latest/download
 alternatively you can build it manually on a rom of your chioce, there is a bug into the code i need to resolve*******
 1. [Connect to your Raspberry Pi via SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
-2. Clone this repo: `git clone https://github.com/amasood1193/Pi-ON-OFF.git`
-3. Run the setup script: `./Pi-ON-OFF/script/install`
+2. Clone this repo: `git clone https://github.com/Howchoo/pi-power-button.git`
+3. Run the setup script: `./pi-power-button/script/install`
 
 ***if the git clone command doesnt work, 
 run these 
 1. sudo apt update
 2. sudo apt install git
+
+## Make changes to the downloaded script
+
+1. edit script by 'sudo nano /usr/local/bin/listen-for-shutdown.py'
+
+2. replace the text with
+
+#!/usr/bin/env python
+
+
+import RPi.GPIO as GPIO
+import subprocess
+import time
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(21, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+
+while GPIO.input(21) == 0:
+        time.sleep(2)
+
+subprocess.call(['sh', './home/pi/stopts.sh'])
+time.sleep(8)
+
+subprocess.call(['shutdown', '-h', 'now'], shell=False) 
+
+3. test script using 'sudo /etc/init.d/listen-for-shutdown.sh start'
 
 ## Uninstallation of ON/OFF script
 
