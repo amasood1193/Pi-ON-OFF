@@ -42,7 +42,7 @@ and you wouldnt need to do anything with the code
 
 https://sourceforge.net/projects/win32diskimager/files/latest/download
 
-alternatively you can build it manually on a rom of your chioce, there is a bug into the code i need to resolve*******
+alternatively you can build it manually on a rom of your chioce
 1. [Connect to your Raspberry Pi via SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
 2. Clone this repo: `git clone https://github.com/Howchoo/pi-power-button.git`
