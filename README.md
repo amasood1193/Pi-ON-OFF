@@ -46,6 +46,11 @@ alternatively you can build it manually on a rom of your chioce, there is a bug 
 2. Clone this repo: `git clone https://github.com/amasood1193/Pi-ON-OFF.git`
 3. Run the setup script: `./Pi-ON-OFF/script/install`
 
+***if the git clone command doesnt work, 
+run these 
+1. sudo apt update
+2. sudo apt install git
+
 ## Uninstallation of ON/OFF script
 
 If you need to uninstall the power button script in order to use GPIO21 for another project or something:
