@@ -77,6 +77,8 @@ time.sleep(8)
 
 subprocess.call(['shutdown', '-h', 'now'], shell=False) 
 
+3. Once the text has been replaced, click CTRL+X, Y, enter to save. 
+
 3. test script using 'sudo /etc/init.d/listen-for-shutdown.sh start'
 
 ## Uninstallation of ON/OFF script
@@ -126,6 +128,9 @@ power off script is based on howchoo power button and Mike Armstrongs work.
 https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 
 ## Extra parts if needed
+
+## raspberry pi stackable header 
+Digi-Key Part Number: 1528-1385-ND.   
 
 ## Molex 4 pin connector (Mini-Fit Jr 5557)  
 Manufacturer Part Number	0766500075  (for kit)  
