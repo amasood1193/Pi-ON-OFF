@@ -46,7 +46,7 @@ download link https://www.raspberrypi.org/software/
 and you wouldnt need to do anything with the code, the rom has real time clock, pi on, off script, and tunerstudio already installed and set to start at boot.   
 
 download link for the rom.  
-https://drive.google.com/file/d/14u9sHhU_0_0gOJKt48uZULw0jFR5z4XC/view?usp=sharing  
+https://drive.google.com/file/d/1YWZ-EpVW9RMVvId_ljVKrSpwBvQlT_4O/view?usp=sharing
 
 all credits to alex bartonek for putting in the time to create this rom,  
 https://www.bartonekdragracing.com/encyclopedia/pidash-knowledge-base/
