@@ -47,9 +47,10 @@ and you wouldnt need to do anything with the code, the rom has real time clock, 
 download link for the rom.  
 https://drive.google.com/file/d/14u9sHhU_0_0gOJKt48uZULw0jFR5z4XC/view?usp=sharing  
 
-all credits to alex bartonek for putting in the time to create this rom, 
+all credits to alex bartonek for putting in the time to create this rom,  
 https://www.bartonekdragracing.com/encyclopedia/pidash-knowledge-base/
-https://www.facebook.com/PiDashByAB
+https://www.facebook.com/PiDashByAB   
+follow his work, and find out about more features imbedded within the rom such as file sharing and backups etc.   
 
 ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", 
 to install, click choose OS, scroll down and select custom, and select the image you just download, and wire that to the SD card.  
