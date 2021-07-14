@@ -100,36 +100,45 @@ If you need to uninstall the power button script in order to use GPIO21 for anot
 
 0. Make sure that the shunts are installed on SDA, SCL, and SQW
 
+use this guide as its actually much better. 
+https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-up-and-test-i2c
+
+alternatively.
+
 1. Type in [sudo raspi-config] set up raspberry pi and prepare to enable i2c interface, alternatively you can go to start > prefference > raspberry pi configuration. and enable it from there. 
 
-![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/c7405fdc88c58e01fd788f40f2cd52225aeb679a/pictures/raspi%20config.JPG)
-![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/19e3cf43d04addeb7a13eb8f7e7e76a83ab0a452/pictures/I2c%20enable.JPG)
+2. type "sudo nano /boot/config.txt"
+and at the end, add the following 
 
-2. type in [sudo vim.tiny /etc/modules] to open file modules
+dtoverlay=i2c-rtc,ds1307
 
-3. add i2c-dev device like picture below
-![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/b28de494a65fcb38d893d0694359a955f7aacae2/pictures/add%20i2c%20device.JPG)
+save by CTRL+O, ENTER, CTRL+X
 
-4. install i2c-tools ,type in [sudo apt-get install i2c-tools]
+3. sudo reboot, 
 
-5. type in [sudo reboot] wait the raspberry pi restart
+4. once its back on, type "sudo i2cdetect -y 1"
+you should see a table with UU where 68 previously was, this means the module is being used, if you dont, check to see that you are editing the right file, as in dietpi etc you will need to edit "sudo nano /dietpi/config.txt" instead. 
 
-6. once pi has restarted, type in [sudo i2cdetect –y 1], if RTC works ,it should be like picture below
-![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/b28de494a65fcb38d893d0694359a955f7aacae2/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.36%20PM%20(2).jpeg)
+5. now disable the fake clock by 
+"sudo apt-get -y remove fake-hwclock
+sudo update-rc.d -f fake-hwclock remove
+sudo systemctl disable fake-hwclock"
 
-7. Type in [sudo su –] change root user
+6. with fake clock off. run "sudo nano /lib/udev/hwclock-set", and comment the following lines out by adding a # behind them. 
 
-8. Type in [modprobe i2c-dev] to load I2C device
+#if [ -e /run/systemd/system ] ; then
+# exit 0
+#fi
+#/sbin/hwclock --rtc=$dev --systz --badyear
+#/sbin/hwclock --rtc=$dev --systz
 
-9. Type in [echo "ds1307 0x68" > /sys/class/i2c-adapter/i2c-1/new_device] add RTC to
-system
+save by CTRL+O, ENTER, CTRL+X
 
-Then you can use “hwclock” command to use this RTC module
-If you want to know more about hwclock command you can type in “man
-hwclock” to get details
-A brief description like following:
-Command [hwclock –r] to get RTC time
-Command [hwclock -w]set the system time to RTC time
+7. sync time on the pi by connecting it to a network, once the time is sync, check time by writing "date" or "sudo hwclock -r"
+if time is correct, write "sudo hwclock -w" to save the time on the RTC. 
+
+8. if the time is in a different region, write "sudo hwclock -l", if this time is correct write "sudo hwclock -l -w" to save it.  
+
 
 ![alt text](https://github.com/amasood1193/Pi-ON-OFF/blob/d4b96212a2cd0fe9ab5a38cc26f32c51ae67bd68/pictures/WhatsApp%20Image%202021-05-19%20at%207.50.35%20PM.jpeg)
 
