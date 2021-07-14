@@ -44,7 +44,8 @@ download link https://www.raspberrypi.org/software/
 4. click choose OS, 
 5. scroll down and select "use custom", 
 6. select the image you just downloaded, 
-7. write that to the SD card.  
+7. inset SD card in the computer, or use a SD card USB adapter. 
+8. select "write" to write image to the SD card.  
   
 *SD card has to be minimum 32gb  
 and you wouldnt need to do anything with the code, the rom has real time clock, pi on, off script, and tunerstudio already installed and set to start at boot.   
