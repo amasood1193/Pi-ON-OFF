@@ -32,15 +32,22 @@ the pinout can be changed by removing the shunt on the corresponding pin, and ad
 2. then give it 12v on the Batt, 12v on the IGN, and ground on the GND, once it starts, check voltage between 5v header pin and any ground, (best to use the pads on the mounting holes as a clean ground) to make sure the output voltage is within spec (set it to 5.15 if pi shows the lightning icon). if so, short the 5v header pins with the shunt jumber which would then power on the PI. 
 
 ## Installation of ON/OFF script  
-0. ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager",  
-to install, click choose OS, scroll down and select custom, and select the image you just download, and wire that to the SD card.  
-SD card has to be minimum 32gb  
-and you wouldnt need to do anything with the code.  
+ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", this rom is a stripped out version of dietpi for use as a dash on in car installs, and boots in around 20 seconds.   
+to flash the rom, 
+1. install Raspberry Pi Imager, 
+2. open it, 
+3. click choose OS, 
+4. scroll down and select custom, 
+5. select the image you just download, 
+6. write that to the SD card.  
+  
+*SD card has to be minimum 32gb  
+and you wouldnt need to do anything with the code, the rom has real time clock, pi on, off script, and tunerstudio already installed and set to start at boot.   
 
-2. download link for the rom.  
+download link for the rom.  
 https://drive.google.com/file/d/14u9sHhU_0_0gOJKt48uZULw0jFR5z4XC/view?usp=sharing  
 
-all credits to alex bartonek for this rom, 
+all credits to alex bartonek for putting in the time to create this rom, 
 https://www.bartonekdragracing.com/encyclopedia/pidash-knowledge-base/
 https://www.facebook.com/PiDashByAB
 
