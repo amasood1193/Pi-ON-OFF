@@ -37,10 +37,12 @@ the pinout can be changed by removing the shunt on the corresponding pin, and ad
 1. all credits to alex bartonek for this rom, 
 https://www.bartonekdragracing.com/encyclopedia/pidash-knowledge-base/
 
-ive made a image for a full rom you can just download, extract, and flash to your SD card using "win32diskimager", SD card has to be minimum 32gb
-and you wouldnt need to do anything with the code
+ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", 
+to install, click choose OS, scroll down and select custom, and select the image you just download, and wire that to the SD card.  
+SD card has to be minimum 32gb
+and you wouldnt need to do anything with the code.
 
-https://sourceforge.net/projects/win32diskimager/files/latest/download
+https://www.raspberrypi.org/software/
 
 alternatively you can build it manually on a rom of your chioce
 1. [Connect to your Raspberry Pi via SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
