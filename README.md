@@ -31,7 +31,7 @@ the pinout can be changed by removing the shunt on the corresponding pin, and ad
 
 2. then give it 12v on the Batt, 12v on the IGN, and ground on the GND, once it starts, check voltage between 5v header pin and any ground, (best to use the pads on the mounting holes as a clean ground) to make sure the output voltage is within spec (set it to 5.15 if pi shows the lightning icon). if so, short the 5v header pins with the shunt jumber which would then power on the PI. 
 
-## Installation of ON/OFF script  
+## Premade Rom for this hat.  
 ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", this rom is a stripped out version of dietpi for use as a dash on in car installs, and boots in around 20 seconds.   
 to flash the rom, 
 1. install Raspberry Pi Imager,   
@@ -53,13 +53,7 @@ https://www.bartonekdragracing.com/encyclopedia/pidash-knowledge-base/
 https://www.facebook.com/PiDashByAB   
 follow his work, and find out about more features imbedded within the rom such as file sharing and backups etc.   
 
-ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", 
-to install, click choose OS, scroll down and select custom, and select the image you just download, and wire that to the SD card.  
-SD card has to be minimum 32gb
-and you wouldnt need to do anything with the code.
-
-https://www.raspberrypi.org/software/
-
+## Installation of ON/OFF script 
 alternatively you can build it manually on a rom of your chioce
 1. [Connect to your Raspberry Pi via SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
