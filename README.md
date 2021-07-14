@@ -34,6 +34,10 @@ the pinout can be changed by removing the shunt on the corresponding pin, and ad
 ## Premade Rom for this hat.  
 ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", this rom is a stripped out version of dietpi for use as a dash on in car installs, and boots in around 20 seconds.   
 to flash the rom, 
+
+download link for the rom.  
+https://drive.google.com/file/d/1YWZ-EpVW9RMVvId_ljVKrSpwBvQlT_4O/view?usp=sharing
+
 1. install Raspberry Pi Imager,   
 download link https://www.raspberrypi.org/software/
 3. open it, 
@@ -45,8 +49,7 @@ download link https://www.raspberrypi.org/software/
 *SD card has to be minimum 32gb  
 and you wouldnt need to do anything with the code, the rom has real time clock, pi on, off script, and tunerstudio already installed and set to start at boot.   
 
-download link for the rom.  
-https://drive.google.com/file/d/1YWZ-EpVW9RMVvId_ljVKrSpwBvQlT_4O/view?usp=sharing
+
 
 all credits to alex bartonek for putting in the time to create this rom,  
 https://www.bartonekdragracing.com/encyclopedia/pidash-knowledge-base/
