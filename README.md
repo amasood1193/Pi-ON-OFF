@@ -43,7 +43,7 @@ download link https://www.raspberrypi.org/software/
 3. open it, 
 4. click choose OS, 
 5. scroll down and select "use custom", 
-6. select the image you just download, 
+6. select the image you just downloaded, 
 7. write that to the SD card.  
   
 *SD card has to be minimum 32gb  
