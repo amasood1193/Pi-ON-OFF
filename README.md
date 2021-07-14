@@ -102,7 +102,7 @@ subprocess.call(['shutdown', '-h', 'now'], shell=False)
 
 If you need to uninstall the power button script in order to use GPIO21 for another project or something:
 
-1. Run the uninstall script: `./Pi-ON-OFF/script/uninstall`
+1. Run the uninstall script: `./pi-power-button/script/uninstall`
 
 ## Configuing Real Time Clock. 
 
