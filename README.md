@@ -38,14 +38,16 @@ to flash the rom,
 download link for the rom.  
 https://drive.google.com/file/d/1YWZ-EpVW9RMVvId_ljVKrSpwBvQlT_4O/view?usp=sharing
 
+0. after downloading, extract the image to any folder
 1. install Raspberry Pi Imager,   
 download link https://www.raspberrypi.org/software/
-3. open it, 
-4. click choose OS, 
-5. scroll down and select "use custom", 
-6. select the image you just downloaded, 
-7. inset SD card in the computer, or use a SD card USB adapter. 
-8. select "write" to write image to the SD card.  
+3. open it
+4. click choose OS
+5. scroll down and select "use custom"
+6. select the image you just downloaded in step 0 
+7. inset SD card in the computer, or use a SD card USB adapter.
+8. click "choose SD card" and select the SD card you want to install the image on.  
+9. select "write" to write image to the SD card.  
   
 *SD card has to be minimum 32gb  
 and you wouldnt need to do anything with the code, the rom has real time clock, pi on, off script, and tunerstudio already installed and set to start at boot.   
