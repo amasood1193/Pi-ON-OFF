@@ -127,7 +127,7 @@ sudo systemctl disable fake-hwclock"
 6. with fake clock off. run "sudo nano /lib/udev/hwclock-set", and comment the following lines out by adding a # behind them. 
 
 #if [ -e /run/systemd/system ] ; then
-# exit 0
+#exit 0
 #fi
 #/sbin/hwclock --rtc=$dev --systz --badyear
 #/sbin/hwclock --rtc=$dev --systz
