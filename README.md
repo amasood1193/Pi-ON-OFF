@@ -32,7 +32,7 @@ the pinout can be changed by removing the shunt on the corresponding pin, and ad
 2. then give it 12v on the Batt, 12v on the IGN, and ground on the GND, once it starts, check voltage between 5v header pin and any ground, (best to use the pads on the mounting holes as a clean ground) to make sure the output voltage is within spec (set it to 5.15 if pi shows the lightning icon). if so, short the 5v header pins with the shunt jumber which would then power on the PI. 
 
 ## Premade Rom for this hat.  
-ive made a image for a full rom you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", this rom is a stripped out version of dietpi for use as a dash on in car installs, and boots in around 20 seconds.   
+ive made a image for a full PiDash rom by Alex Bartonek, you can just download, extract, and flash to your SD card using "Raspberry Pi Imager", this rom is a stripped out version of dietpi for use as a dash on in car installs, and boots in around 20 seconds.   
 to flash the rom, 
 
 download link for the rom.  
