@@ -50,7 +50,7 @@ download link https://www.raspberrypi.org/software/
 9. select "write" to write image to the SD card.  
 10. once the write is complete, insert the SD card back in the pi, power it on and youre all set. 
 
-*point to note: this has a shutdown feature, as a result if the hat is not plugged in, and the shunt for "off" is not installed, the pi with shutdown before it even fully boots up*
+*point to note: this has a shutdown feature, as a result if the hat is not plugged in, and the shunt for "off" is not installed, the pi with shutdown before it even fully boots up, for bench testing purposes, you can install a jumper between pin 40 and gnd (short pin 40 to gnd), to stop the pi from shutting down***
   
 *SD card has to be minimum 32gb  
 and you wouldnt need to do anything with the code, the rom has real time clock, pi on, off script, and tunerstudio already installed and set to start at boot.   
