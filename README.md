@@ -42,7 +42,7 @@ https://drive.google.com/file/d/1YWZ-EpVW9RMVvId_ljVKrSpwBvQlT_4O/view?usp=shari
 1. install Raspberry Pi Imager,   
 download link https://www.raspberrypi.org/software/
 3. open it
-4. click choose OS
+4. click "choose OS"
 5. scroll down and select "use custom"
 6. select the image you just downloaded in step 0 
 7. inset SD card in the computer, or use a SD card USB adapter.
