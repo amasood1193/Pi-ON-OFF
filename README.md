@@ -36,7 +36,7 @@ ive made a image for a full PiDash rom by Alex Bartonek, you can just download, 
 to flash the rom, 
 
 download link for the rom.  
-https://drive.google.com/file/d/1YWZ-EpVW9RMVvId_ljVKrSpwBvQlT_4O/view?usp=sharing
+https://drive.google.com/file/d/1LwtBL5jEeM_5KxnBrZM2rW1z33K-vyiC/view?usp=sharing
 
 0. after downloading, extract the image to any folder
 1. install Raspberry Pi Imager,   
@@ -49,7 +49,7 @@ download link https://www.raspberrypi.org/software/
 8. click "choose SD card" and select the SD card you want to install the image on.  
 9. select "write" to write image to the SD card.  
 10. once the write is complete, insert the SD card back in the pi, power it on and youre all set. 
-11. set your RTC time with following command in terminal (sudo timedatectl set-time 'YYYY-MM-DD HH:MM:SS') for example ('sudo timedatectl set-time '2021-05-26 15:45:20') without the (,) and hit enter.
+11. set your RTC time with following command in terminal (sudo timedatectl set-time 'YYYY-MM-DD HH:MM:SS') for example ('sudo timedatectl set-time '2021-05-26 15:45:20') without the (,) and hit enter. Side note: if you open the terminal and click the up arrow on the keyboard twice, it the command will come up, and you can just edit it
 12. to connect to internet, open updater on the desktop, and click "enable networking", it can take a couple of minutes, and if it doesnt work, restart and try the step 12 again. 
 
 *point to note: this has a shutdown feature, as a result if the hat is not plugged in, and the shunt for "off" is not installed, the pi with shutdown before it even fully boots up, for bench testing purposes, you can install a jumper between pin 40 and gnd (short pin 40 to gnd), to stop the pi from shutting down***
