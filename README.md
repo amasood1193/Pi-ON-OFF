@@ -54,7 +54,7 @@ download link https://www.raspberrypi.org/software/
 
 *point to note: this has a shutdown feature, as a result if the hat is not plugged in, and the shunt for "off" is not installed, the pi with shutdown before it even fully boots up, for bench testing purposes, you can install a jumper between pin 40 and gnd (short pin 40 to gnd), to stop the pi from shutting down***
   
-*SD card has to be minimum 32gb  
+*SD card has to be minimum 8gb  
 and you wouldnt need to do anything with the code, the rom has real time clock, pi on, off script, and tunerstudio already installed and set to start at boot.   
 
 
